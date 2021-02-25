@@ -114,7 +114,10 @@ def draw_model_vs_reality_plot(
         real_sliding_window_size=7,
         show_legend=True,
         show_model_areas=True,
-        show_reality_lines=True,
+        show_reality_line_b117=True,
+        show_reality_line_total=True,
+        reality_line_b117_color=pconf.colors[0],
+        reality_line_b117_label_suffix="",
         show_long_title=True,
         y_axis_lim=None
 ):
@@ -152,13 +155,14 @@ def draw_model_vs_reality_plot(
     daily_estimated_cases = daily_estimated_cases[daily_estimated_cases.date >= real_start_date]
 
     # Draw plot
-    if show_reality_lines:
-        ax.plot(daily_estimated_cases.date, daily_estimated_cases.b117,
-                label="Data: Estimated number of B.1.1.7 cases (7-day average)", color=pconf.colors[0], linewidth=4)
-        # ax.plot(daily_estimated_cases.date, daily_estimated_cases.original,
-        #      label="Data: Estimated number of non-B.1.1.7 cases (7-day average)", color=pconf.colors[1], linewidth=4)
+    if show_reality_line_total:
         ax.plot(daily_estimated_cases.date, daily_estimated_cases.cases,
                 label="Data: Total number of confirmed cases (7-day average)", color=pconf.colors[1], linewidth=4)
+    if show_reality_line_b117:
+        ax.plot(daily_estimated_cases.date, daily_estimated_cases.b117,
+                label="Data: Estimated number of B.1.1.7 cases (7-day average)" + reality_line_b117_label_suffix,
+                color=reality_line_b117_color,
+                linewidth=4)
     if show_model_areas:
         ax.stackplot(data_model.date, data_model.n_b117, data_model.n_original,
                      labels=["Model: Number of B.1.1.7 cases", "Model: Number of total cases"],
@@ -337,6 +341,45 @@ def generate_fig_model_vs_reality_switzerland_viollier_risch(show_model=True) ->
     return fig
 
 
+def generate_fig_cases_switzerland_joint() -> Figure:
+    def _subplot(ax, d, reproduction_number, first=False):
+        growth = calculate_growth_rates(join_dataset(d), 0.95, global_generation_time, reproduction_number)
+        data_confirmed_cases = d.cases[["date", "cases"]]
+        data_variants = join_dataset(d)[["date", "t", "b117", "original"]]
+        initial_cases = data_confirmed_cases[
+            (data_confirmed_cases.date >= datetime.datetime.strptime("2020-12-29", "%Y-%m-%d")) &
+            (data_confirmed_cases.date <= datetime.datetime.strptime("2021-01-04", "%Y-%m-%d"))]
+        initial_cases = sum(initial_cases.cases) / 7
+        if first:
+            draw_model_vs_reality_plot(ax, data_confirmed_cases, data_variants, model_original_r0=reproduction_number,
+                                   generation_time=global_generation_time, model_initial_cases=initial_cases,
+                                   model_fitness_advantage=growth.fc_mle, show_long_title=False,
+                                   show_legend=False, y_axis_lim=4000, show_model_areas=False,
+                                   reality_line_b117_label_suffix=", Viollier")
+        else:
+            draw_model_vs_reality_plot(ax, data_confirmed_cases, data_variants, model_original_r0=reproduction_number,
+                                       generation_time=global_generation_time, model_initial_cases=initial_cases,
+                                       model_fitness_advantage=growth.fc_mle, show_long_title=False,
+                                       show_legend=True, y_axis_lim=4000, show_model_areas=False, show_reality_line_total=False,
+                                       reality_line_b117_color=pconf.colors[2],
+                                       reality_line_b117_label_suffix=", Risch")
+
+    data_viollier = load_data(INPUT_CASES, INPUT_RAW_VIOLLIER)
+    data_risch = load_data(INPUT_CASES, INPUT_RAW_RISCH)
+
+    fig = plt.figure(figsize=(10, 7))
+
+    ax = fig.add_subplot(1, 1, 1)
+    _subplot(ax, to_data_whole(data_viollier), r_viollier, first=True)
+    _subplot(ax, to_data_whole(data_risch), r_risch)
+    ax.set_title("Switzerland")
+
+    fig.tight_layout()
+    fig.savefig(OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_cases_switzerland_joint.svg",
+                format="svg")
+    return fig
+
+
 def generate_fig_model_vs_reality_regions(show_model=True) -> Figure:
     def _subplot(ax, d, growth, show_legend=False):
         data_confirmed_cases = d.cases[["date", "cases"]]
@@ -457,6 +500,7 @@ def main():
         generate_fig_model_vs_reality_regions()
         generate_fig_model_vs_reality_switzerland_viollier_risch(show_model=False)
         generate_fig_model_vs_reality_regions(show_model=False)
+        generate_fig_cases_switzerland_joint()
         generate_tbl_growth_rates()
         generate_fig_model_vs_reality_geneva()
         if g == 4.8:
