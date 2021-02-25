@@ -1,0 +1,7 @@
+# Editors
+/.idea/
+
+
+# Python
+/venv/
+__pycache__/

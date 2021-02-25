@@ -1,0 +1,484 @@
+date,year,week,region,cases
+2020-12-14,2020,51,Central Switzerland,583
+2020-12-14,2020,51,Espace Mittelland,1174
+2020-12-14,2020,51,Grossregion Nordwestschweiz,884
+2020-12-14,2020,51,Grossregion Tessin,378
+2020-12-14,2020,51,Grossregion Zurich,1032
+2020-12-14,2020,51,Lake Geneva region,639
+2020-12-14,2020,51,Ostschweiz,1225
+2020-12-15,2020,51,Central Switzerland,541
+2020-12-15,2020,51,Espace Mittelland,1027
+2020-12-15,2020,51,Grossregion Nordwestschweiz,841
+2020-12-15,2020,51,Grossregion Tessin,248
+2020-12-15,2020,51,Grossregion Zurich,1022
+2020-12-15,2020,51,Lake Geneva region,603
+2020-12-15,2020,51,Ostschweiz,883
+2020-12-16,2020,51,Central Switzerland,491
+2020-12-16,2020,51,Espace Mittelland,917
+2020-12-16,2020,51,Grossregion Nordwestschweiz,772
+2020-12-16,2020,51,Grossregion Tessin,244
+2020-12-16,2020,51,Grossregion Zurich,1020
+2020-12-16,2020,51,Lake Geneva region,539
+2020-12-16,2020,51,Ostschweiz,834
+2020-12-17,2020,51,Central Switzerland,407
+2020-12-17,2020,51,Espace Mittelland,882
+2020-12-17,2020,51,Grossregion Nordwestschweiz,712
+2020-12-17,2020,51,Grossregion Tessin,261
+2020-12-17,2020,51,Grossregion Zurich,894
+2020-12-17,2020,51,Lake Geneva region,484
+2020-12-17,2020,51,Ostschweiz,746
+2020-12-18,2020,51,Central Switzerland,458
+2020-12-18,2020,51,Espace Mittelland,779
+2020-12-18,2020,51,Grossregion Nordwestschweiz,651
+2020-12-18,2020,51,Grossregion Tessin,268
+2020-12-18,2020,51,Grossregion Zurich,861
+2020-12-18,2020,51,Lake Geneva region,524
+2020-12-18,2020,51,Ostschweiz,800
+2020-12-19,2020,51,Central Switzerland,276
+2020-12-19,2020,51,Espace Mittelland,580
+2020-12-19,2020,51,Grossregion Nordwestschweiz,359
+2020-12-19,2020,51,Grossregion Tessin,186
+2020-12-19,2020,51,Grossregion Zurich,630
+2020-12-19,2020,51,Lake Geneva region,337
+2020-12-19,2020,51,Ostschweiz,307
+2020-12-20,2020,51,Central Switzerland,184
+2020-12-20,2020,51,Espace Mittelland,394
+2020-12-20,2020,51,Grossregion Nordwestschweiz,261
+2020-12-20,2020,51,Grossregion Tessin,117
+2020-12-20,2020,51,Grossregion Zurich,488
+2020-12-20,2020,51,Lake Geneva region,274
+2020-12-20,2020,51,Ostschweiz,236
+2020-12-21,2020,52,Central Switzerland,530
+2020-12-21,2020,52,Espace Mittelland,1026
+2020-12-21,2020,52,Grossregion Nordwestschweiz,927
+2020-12-21,2020,52,Grossregion Tessin,353
+2020-12-21,2020,52,Grossregion Zurich,1068
+2020-12-21,2020,52,Lake Geneva region,608
+2020-12-21,2020,52,Ostschweiz,1114
+2020-12-22,2020,52,Central Switzerland,504
+2020-12-22,2020,52,Espace Mittelland,858
+2020-12-22,2020,52,Grossregion Nordwestschweiz,697
+2020-12-22,2020,52,Grossregion Tessin,263
+2020-12-22,2020,52,Grossregion Zurich,933
+2020-12-22,2020,52,Lake Geneva region,544
+2020-12-22,2020,52,Ostschweiz,802
+2020-12-23,2020,52,Central Switzerland,432
+2020-12-23,2020,52,Espace Mittelland,817
+2020-12-23,2020,52,Grossregion Nordwestschweiz,753
+2020-12-23,2020,52,Grossregion Tessin,309
+2020-12-23,2020,52,Grossregion Zurich,945
+2020-12-23,2020,52,Lake Geneva region,542
+2020-12-23,2020,52,Ostschweiz,673
+2020-12-24,2020,52,Central Switzerland,352
+2020-12-24,2020,52,Espace Mittelland,576
+2020-12-24,2020,52,Grossregion Nordwestschweiz,438
+2020-12-24,2020,52,Grossregion Tessin,224
+2020-12-24,2020,52,Grossregion Zurich,645
+2020-12-24,2020,52,Lake Geneva region,435
+2020-12-24,2020,52,Ostschweiz,377
+2020-12-25,2020,52,Central Switzerland,150
+2020-12-25,2020,52,Espace Mittelland,372
+2020-12-25,2020,52,Grossregion Nordwestschweiz,220
+2020-12-25,2020,52,Grossregion Tessin,136
+2020-12-25,2020,52,Grossregion Zurich,451
+2020-12-25,2020,52,Lake Geneva region,210
+2020-12-25,2020,52,Ostschweiz,182
+2020-12-26,2020,52,Central Switzerland,294
+2020-12-26,2020,52,Espace Mittelland,443
+2020-12-26,2020,52,Grossregion Nordwestschweiz,342
+2020-12-26,2020,52,Grossregion Tessin,182
+2020-12-26,2020,52,Grossregion Zurich,476
+2020-12-26,2020,52,Lake Geneva region,360
+2020-12-26,2020,52,Ostschweiz,258
+2020-12-27,2020,52,Central Switzerland,168
+2020-12-27,2020,52,Espace Mittelland,409
+2020-12-27,2020,52,Grossregion Nordwestschweiz,278
+2020-12-27,2020,52,Grossregion Tessin,174
+2020-12-27,2020,52,Grossregion Zurich,485
+2020-12-27,2020,52,Lake Geneva region,363
+2020-12-27,2020,52,Ostschweiz,237
+2020-12-28,2020,53,Central Switzerland,530
+2020-12-28,2020,53,Espace Mittelland,906
+2020-12-28,2020,53,Grossregion Nordwestschweiz,691
+2020-12-28,2020,53,Grossregion Tessin,297
+2020-12-28,2020,53,Grossregion Zurich,951
+2020-12-28,2020,53,Lake Geneva region,680
+2020-12-28,2020,53,Ostschweiz,976
+2020-12-29,2020,53,Central Switzerland,461
+2020-12-29,2020,53,Espace Mittelland,797
+2020-12-29,2020,53,Grossregion Nordwestschweiz,625
+2020-12-29,2020,53,Grossregion Tessin,314
+2020-12-29,2020,53,Grossregion Zurich,889
+2020-12-29,2020,53,Lake Geneva region,641
+2020-12-29,2020,53,Ostschweiz,734
+2020-12-30,2020,53,Central Switzerland,437
+2020-12-30,2020,53,Espace Mittelland,822
+2020-12-30,2020,53,Grossregion Nordwestschweiz,581
+2020-12-30,2020,53,Grossregion Tessin,322
+2020-12-30,2020,53,Grossregion Zurich,810
+2020-12-30,2020,53,Lake Geneva region,614
+2020-12-30,2020,53,Ostschweiz,624
+2020-12-31,2020,53,Central Switzerland,326
+2020-12-31,2020,53,Espace Mittelland,612
+2020-12-31,2020,53,Grossregion Nordwestschweiz,381
+2020-12-31,2020,53,Grossregion Tessin,236
+2020-12-31,2020,53,Grossregion Zurich,606
+2020-12-31,2020,53,Lake Geneva region,483
+2020-12-31,2020,53,Ostschweiz,410
+2021-01-01,2020,53,Central Switzerland,138
+2021-01-01,2020,53,Espace Mittelland,302
+2021-01-01,2020,53,Grossregion Nordwestschweiz,252
+2021-01-01,2020,53,Grossregion Tessin,129
+2021-01-01,2020,53,Grossregion Zurich,424
+2021-01-01,2020,53,Lake Geneva region,262
+2021-01-01,2020,53,Ostschweiz,172
+2021-01-02,2020,53,Central Switzerland,297
+2021-01-02,2020,53,Espace Mittelland,534
+2021-01-02,2020,53,Grossregion Nordwestschweiz,339
+2021-01-02,2020,53,Grossregion Tessin,166
+2021-01-02,2020,53,Grossregion Zurich,528
+2021-01-02,2020,53,Lake Geneva region,504
+2021-01-02,2020,53,Ostschweiz,349
+2021-01-03,2020,53,Central Switzerland,195
+2021-01-03,2020,53,Espace Mittelland,442
+2021-01-03,2020,53,Grossregion Nordwestschweiz,277
+2021-01-03,2020,53,Grossregion Tessin,146
+2021-01-03,2020,53,Grossregion Zurich,486
+2021-01-03,2020,53,Lake Geneva region,426
+2021-01-03,2020,53,Ostschweiz,245
+2021-01-04,2021,1,Central Switzerland,524
+2021-01-04,2021,1,Espace Mittelland,978
+2021-01-04,2021,1,Grossregion Nordwestschweiz,698
+2021-01-04,2021,1,Grossregion Tessin,330
+2021-01-04,2021,1,Grossregion Zurich,907
+2021-01-04,2021,1,Lake Geneva region,817
+2021-01-04,2021,1,Ostschweiz,1023
+2021-01-05,2021,1,Central Switzerland,463
+2021-01-05,2021,1,Espace Mittelland,791
+2021-01-05,2021,1,Grossregion Nordwestschweiz,483
+2021-01-05,2021,1,Grossregion Tessin,251
+2021-01-05,2021,1,Grossregion Zurich,772
+2021-01-05,2021,1,Lake Geneva region,691
+2021-01-05,2021,1,Ostschweiz,712
+2021-01-06,2021,1,Central Switzerland,391
+2021-01-06,2021,1,Espace Mittelland,627
+2021-01-06,2021,1,Grossregion Nordwestschweiz,443
+2021-01-06,2021,1,Grossregion Tessin,97
+2021-01-06,2021,1,Grossregion Zurich,618
+2021-01-06,2021,1,Lake Geneva region,627
+2021-01-06,2021,1,Ostschweiz,546
+2021-01-07,2021,1,Central Switzerland,357
+2021-01-07,2021,1,Espace Mittelland,638
+2021-01-07,2021,1,Grossregion Nordwestschweiz,358
+2021-01-07,2021,1,Grossregion Tessin,202
+2021-01-07,2021,1,Grossregion Zurich,558
+2021-01-07,2021,1,Lake Geneva region,598
+2021-01-07,2021,1,Ostschweiz,465
+2021-01-08,2021,1,Central Switzerland,312
+2021-01-08,2021,1,Espace Mittelland,602
+2021-01-08,2021,1,Grossregion Nordwestschweiz,370
+2021-01-08,2021,1,Grossregion Tessin,159
+2021-01-08,2021,1,Grossregion Zurich,576
+2021-01-08,2021,1,Lake Geneva region,518
+2021-01-08,2021,1,Ostschweiz,512
+2021-01-09,2021,1,Central Switzerland,163
+2021-01-09,2021,1,Espace Mittelland,387
+2021-01-09,2021,1,Grossregion Nordwestschweiz,241
+2021-01-09,2021,1,Grossregion Tessin,98
+2021-01-09,2021,1,Grossregion Zurich,313
+2021-01-09,2021,1,Lake Geneva region,327
+2021-01-09,2021,1,Ostschweiz,153
+2021-01-10,2021,1,Central Switzerland,154
+2021-01-10,2021,1,Espace Mittelland,267
+2021-01-10,2021,1,Grossregion Nordwestschweiz,165
+2021-01-10,2021,1,Grossregion Tessin,71
+2021-01-10,2021,1,Grossregion Zurich,267
+2021-01-10,2021,1,Lake Geneva region,258
+2021-01-10,2021,1,Ostschweiz,111
+2021-01-11,2021,2,Central Switzerland,401
+2021-01-11,2021,2,Espace Mittelland,625
+2021-01-11,2021,2,Grossregion Nordwestschweiz,449
+2021-01-11,2021,2,Grossregion Tessin,163
+2021-01-11,2021,2,Grossregion Zurich,560
+2021-01-11,2021,2,Lake Geneva region,679
+2021-01-11,2021,2,Ostschweiz,581
+2021-01-12,2021,2,Central Switzerland,286
+2021-01-12,2021,2,Espace Mittelland,512
+2021-01-12,2021,2,Grossregion Nordwestschweiz,323
+2021-01-12,2021,2,Grossregion Tessin,129
+2021-01-12,2021,2,Grossregion Zurich,499
+2021-01-12,2021,2,Lake Geneva region,484
+2021-01-12,2021,2,Ostschweiz,374
+2021-01-13,2021,2,Central Switzerland,258
+2021-01-13,2021,2,Espace Mittelland,492
+2021-01-13,2021,2,Grossregion Nordwestschweiz,323
+2021-01-13,2021,2,Grossregion Tessin,83
+2021-01-13,2021,2,Grossregion Zurich,398
+2021-01-13,2021,2,Lake Geneva region,519
+2021-01-13,2021,2,Ostschweiz,388
+2021-01-14,2021,2,Central Switzerland,233
+2021-01-14,2021,2,Espace Mittelland,487
+2021-01-14,2021,2,Grossregion Nordwestschweiz,290
+2021-01-14,2021,2,Grossregion Tessin,97
+2021-01-14,2021,2,Grossregion Zurich,366
+2021-01-14,2021,2,Lake Geneva region,476
+2021-01-14,2021,2,Ostschweiz,289
+2021-01-15,2021,2,Central Switzerland,262
+2021-01-15,2021,2,Espace Mittelland,408
+2021-01-15,2021,2,Grossregion Nordwestschweiz,236
+2021-01-15,2021,2,Grossregion Tessin,105
+2021-01-15,2021,2,Grossregion Zurich,360
+2021-01-15,2021,2,Lake Geneva region,507
+2021-01-15,2021,2,Ostschweiz,281
+2021-01-16,2021,2,Central Switzerland,140
+2021-01-16,2021,2,Espace Mittelland,262
+2021-01-16,2021,2,Grossregion Nordwestschweiz,148
+2021-01-16,2021,2,Grossregion Tessin,59
+2021-01-16,2021,2,Grossregion Zurich,229
+2021-01-16,2021,2,Lake Geneva region,340
+2021-01-16,2021,2,Ostschweiz,159
+2021-01-17,2021,2,Central Switzerland,89
+2021-01-17,2021,2,Espace Mittelland,209
+2021-01-17,2021,2,Grossregion Nordwestschweiz,104
+2021-01-17,2021,2,Grossregion Tessin,44
+2021-01-17,2021,2,Grossregion Zurich,172
+2021-01-17,2021,2,Lake Geneva region,226
+2021-01-17,2021,2,Ostschweiz,48
+2021-01-18,2021,3,Central Switzerland,271
+2021-01-18,2021,3,Espace Mittelland,530
+2021-01-18,2021,3,Grossregion Nordwestschweiz,391
+2021-01-18,2021,3,Grossregion Tessin,125
+2021-01-18,2021,3,Grossregion Zurich,475
+2021-01-18,2021,3,Lake Geneva region,609
+2021-01-18,2021,3,Ostschweiz,544
+2021-01-19,2021,3,Central Switzerland,255
+2021-01-19,2021,3,Espace Mittelland,436
+2021-01-19,2021,3,Grossregion Nordwestschweiz,310
+2021-01-19,2021,3,Grossregion Tessin,74
+2021-01-19,2021,3,Grossregion Zurich,415
+2021-01-19,2021,3,Lake Geneva region,501
+2021-01-19,2021,3,Ostschweiz,339
+2021-01-20,2021,3,Central Switzerland,223
+2021-01-20,2021,3,Espace Mittelland,400
+2021-01-20,2021,3,Grossregion Nordwestschweiz,295
+2021-01-20,2021,3,Grossregion Tessin,80
+2021-01-20,2021,3,Grossregion Zurich,405
+2021-01-20,2021,3,Lake Geneva region,548
+2021-01-20,2021,3,Ostschweiz,328
+2021-01-21,2021,3,Central Switzerland,181
+2021-01-21,2021,3,Espace Mittelland,384
+2021-01-21,2021,3,Grossregion Nordwestschweiz,270
+2021-01-21,2021,3,Grossregion Tessin,59
+2021-01-21,2021,3,Grossregion Zurich,398
+2021-01-21,2021,3,Lake Geneva region,480
+2021-01-21,2021,3,Ostschweiz,283
+2021-01-22,2021,3,Central Switzerland,215
+2021-01-22,2021,3,Espace Mittelland,378
+2021-01-22,2021,3,Grossregion Nordwestschweiz,257
+2021-01-22,2021,3,Grossregion Tessin,50
+2021-01-22,2021,3,Grossregion Zurich,373
+2021-01-22,2021,3,Lake Geneva region,469
+2021-01-22,2021,3,Ostschweiz,294
+2021-01-23,2021,3,Central Switzerland,110
+2021-01-23,2021,3,Espace Mittelland,206
+2021-01-23,2021,3,Grossregion Nordwestschweiz,142
+2021-01-23,2021,3,Grossregion Tessin,31
+2021-01-23,2021,3,Grossregion Zurich,216
+2021-01-23,2021,3,Lake Geneva region,278
+2021-01-23,2021,3,Ostschweiz,114
+2021-01-24,2021,3,Central Switzerland,42
+2021-01-24,2021,3,Espace Mittelland,185
+2021-01-24,2021,3,Grossregion Nordwestschweiz,69
+2021-01-24,2021,3,Grossregion Tessin,20
+2021-01-24,2021,3,Grossregion Zurich,121
+2021-01-24,2021,3,Lake Geneva region,223
+2021-01-24,2021,3,Ostschweiz,72
+2021-01-25,2021,4,Central Switzerland,203
+2021-01-25,2021,4,Espace Mittelland,470
+2021-01-25,2021,4,Grossregion Nordwestschweiz,324
+2021-01-25,2021,4,Grossregion Tessin,63
+2021-01-25,2021,4,Grossregion Zurich,382
+2021-01-25,2021,4,Lake Geneva region,590
+2021-01-25,2021,4,Ostschweiz,457
+2021-01-26,2021,4,Central Switzerland,164
+2021-01-26,2021,4,Espace Mittelland,381
+2021-01-26,2021,4,Grossregion Nordwestschweiz,234
+2021-01-26,2021,4,Grossregion Tessin,41
+2021-01-26,2021,4,Grossregion Zurich,340
+2021-01-26,2021,4,Lake Geneva region,427
+2021-01-26,2021,4,Ostschweiz,251
+2021-01-27,2021,4,Central Switzerland,148
+2021-01-27,2021,4,Espace Mittelland,400
+2021-01-27,2021,4,Grossregion Nordwestschweiz,219
+2021-01-27,2021,4,Grossregion Tessin,46
+2021-01-27,2021,4,Grossregion Zurich,364
+2021-01-27,2021,4,Lake Geneva region,450
+2021-01-27,2021,4,Ostschweiz,243
+2021-01-28,2021,4,Central Switzerland,146
+2021-01-28,2021,4,Espace Mittelland,367
+2021-01-28,2021,4,Grossregion Nordwestschweiz,224
+2021-01-28,2021,4,Grossregion Tessin,44
+2021-01-28,2021,4,Grossregion Zurich,292
+2021-01-28,2021,4,Lake Geneva region,497
+2021-01-28,2021,4,Ostschweiz,208
+2021-01-29,2021,4,Central Switzerland,177
+2021-01-29,2021,4,Espace Mittelland,327
+2021-01-29,2021,4,Grossregion Nordwestschweiz,166
+2021-01-29,2021,4,Grossregion Tessin,45
+2021-01-29,2021,4,Grossregion Zurich,282
+2021-01-29,2021,4,Lake Geneva region,467
+2021-01-29,2021,4,Ostschweiz,300
+2021-01-30,2021,4,Central Switzerland,56
+2021-01-30,2021,4,Espace Mittelland,202
+2021-01-30,2021,4,Grossregion Nordwestschweiz,119
+2021-01-30,2021,4,Grossregion Tessin,22
+2021-01-30,2021,4,Grossregion Zurich,179
+2021-01-30,2021,4,Lake Geneva region,301
+2021-01-30,2021,4,Ostschweiz,140
+2021-01-31,2021,4,Central Switzerland,46
+2021-01-31,2021,4,Espace Mittelland,168
+2021-01-31,2021,4,Grossregion Nordwestschweiz,91
+2021-01-31,2021,4,Grossregion Tessin,25
+2021-01-31,2021,4,Grossregion Zurich,111
+2021-01-31,2021,4,Lake Geneva region,236
+2021-01-31,2021,4,Ostschweiz,62
+2021-02-01,2021,5,Central Switzerland,215
+2021-02-01,2021,5,Espace Mittelland,453
+2021-02-01,2021,5,Grossregion Nordwestschweiz,256
+2021-02-01,2021,5,Grossregion Tessin,59
+2021-02-01,2021,5,Grossregion Zurich,327
+2021-02-01,2021,5,Lake Geneva region,532
+2021-02-01,2021,5,Ostschweiz,320
+2021-02-02,2021,5,Central Switzerland,142
+2021-02-02,2021,5,Espace Mittelland,328
+2021-02-02,2021,5,Grossregion Nordwestschweiz,193
+2021-02-02,2021,5,Grossregion Tessin,45
+2021-02-02,2021,5,Grossregion Zurich,282
+2021-02-02,2021,5,Lake Geneva region,472
+2021-02-02,2021,5,Ostschweiz,188
+2021-02-03,2021,5,Central Switzerland,145
+2021-02-03,2021,5,Espace Mittelland,315
+2021-02-03,2021,5,Grossregion Nordwestschweiz,175
+2021-02-03,2021,5,Grossregion Tessin,66
+2021-02-03,2021,5,Grossregion Zurich,263
+2021-02-03,2021,5,Lake Geneva region,537
+2021-02-03,2021,5,Ostschweiz,229
+2021-02-04,2021,5,Central Switzerland,131
+2021-02-04,2021,5,Espace Mittelland,260
+2021-02-04,2021,5,Grossregion Nordwestschweiz,167
+2021-02-04,2021,5,Grossregion Tessin,53
+2021-02-04,2021,5,Grossregion Zurich,236
+2021-02-04,2021,5,Lake Geneva region,428
+2021-02-04,2021,5,Ostschweiz,167
+2021-02-05,2021,5,Central Switzerland,123
+2021-02-05,2021,5,Espace Mittelland,293
+2021-02-05,2021,5,Grossregion Nordwestschweiz,197
+2021-02-05,2021,5,Grossregion Tessin,43
+2021-02-05,2021,5,Grossregion Zurich,230
+2021-02-05,2021,5,Lake Geneva region,450
+2021-02-05,2021,5,Ostschweiz,170
+2021-02-06,2021,5,Central Switzerland,78
+2021-02-06,2021,5,Espace Mittelland,180
+2021-02-06,2021,5,Grossregion Nordwestschweiz,95
+2021-02-06,2021,5,Grossregion Tessin,30
+2021-02-06,2021,5,Grossregion Zurich,159
+2021-02-06,2021,5,Lake Geneva region,258
+2021-02-06,2021,5,Ostschweiz,87
+2021-02-07,2021,5,Central Switzerland,55
+2021-02-07,2021,5,Espace Mittelland,133
+2021-02-07,2021,5,Grossregion Nordwestschweiz,98
+2021-02-07,2021,5,Grossregion Tessin,21
+2021-02-07,2021,5,Grossregion Zurich,124
+2021-02-07,2021,5,Lake Geneva region,193
+2021-02-07,2021,5,Ostschweiz,48
+2021-02-08,2021,6,Central Switzerland,145
+2021-02-08,2021,6,Espace Mittelland,357
+2021-02-08,2021,6,Grossregion Nordwestschweiz,177
+2021-02-08,2021,6,Grossregion Tessin,73
+2021-02-08,2021,6,Grossregion Zurich,290
+2021-02-08,2021,6,Lake Geneva region,462
+2021-02-08,2021,6,Ostschweiz,243
+2021-02-09,2021,6,Central Switzerland,112
+2021-02-09,2021,6,Espace Mittelland,249
+2021-02-09,2021,6,Grossregion Nordwestschweiz,154
+2021-02-09,2021,6,Grossregion Tessin,62
+2021-02-09,2021,6,Grossregion Zurich,224
+2021-02-09,2021,6,Lake Geneva region,382
+2021-02-09,2021,6,Ostschweiz,164
+2021-02-10,2021,6,Central Switzerland,92
+2021-02-10,2021,6,Espace Mittelland,246
+2021-02-10,2021,6,Grossregion Nordwestschweiz,143
+2021-02-10,2021,6,Grossregion Tessin,36
+2021-02-10,2021,6,Grossregion Zurich,212
+2021-02-10,2021,6,Lake Geneva region,374
+2021-02-10,2021,6,Ostschweiz,152
+2021-02-11,2021,6,Central Switzerland,82
+2021-02-11,2021,6,Espace Mittelland,299
+2021-02-11,2021,6,Grossregion Nordwestschweiz,117
+2021-02-11,2021,6,Grossregion Tessin,40
+2021-02-11,2021,6,Grossregion Zurich,171
+2021-02-11,2021,6,Lake Geneva region,348
+2021-02-11,2021,6,Ostschweiz,116
+2021-02-12,2021,6,Central Switzerland,84
+2021-02-12,2021,6,Espace Mittelland,219
+2021-02-12,2021,6,Grossregion Nordwestschweiz,155
+2021-02-12,2021,6,Grossregion Tessin,37
+2021-02-12,2021,6,Grossregion Zurich,181
+2021-02-12,2021,6,Lake Geneva region,337
+2021-02-12,2021,6,Ostschweiz,115
+2021-02-13,2021,6,Central Switzerland,40
+2021-02-13,2021,6,Espace Mittelland,161
+2021-02-13,2021,6,Grossregion Nordwestschweiz,77
+2021-02-13,2021,6,Grossregion Tessin,20
+2021-02-13,2021,6,Grossregion Zurich,112
+2021-02-13,2021,6,Lake Geneva region,243
+2021-02-13,2021,6,Ostschweiz,67
+2021-02-14,2021,6,Central Switzerland,35
+2021-02-14,2021,6,Espace Mittelland,100
+2021-02-14,2021,6,Grossregion Nordwestschweiz,44
+2021-02-14,2021,6,Grossregion Tessin,18
+2021-02-14,2021,6,Grossregion Zurich,73
+2021-02-14,2021,6,Lake Geneva region,170
+2021-02-14,2021,6,Ostschweiz,40
+2021-02-15,2021,7,Central Switzerland,91
+2021-02-15,2021,7,Espace Mittelland,279
+2021-02-15,2021,7,Grossregion Nordwestschweiz,148
+2021-02-15,2021,7,Grossregion Tessin,40
+2021-02-15,2021,7,Grossregion Zurich,168
+2021-02-15,2021,7,Lake Geneva region,369
+2021-02-15,2021,7,Ostschweiz,211
+2021-02-16,2021,7,Central Switzerland,100
+2021-02-16,2021,7,Espace Mittelland,232
+2021-02-16,2021,7,Grossregion Nordwestschweiz,91
+2021-02-16,2021,7,Grossregion Tessin,38
+2021-02-16,2021,7,Grossregion Zurich,174
+2021-02-16,2021,7,Lake Geneva region,366
+2021-02-16,2021,7,Ostschweiz,136
+2021-02-17,2021,7,Central Switzerland,80
+2021-02-17,2021,7,Espace Mittelland,260
+2021-02-17,2021,7,Grossregion Nordwestschweiz,131
+2021-02-17,2021,7,Grossregion Tessin,52
+2021-02-17,2021,7,Grossregion Zurich,215
+2021-02-17,2021,7,Lake Geneva region,331
+2021-02-17,2021,7,Ostschweiz,141
+2021-02-18,2021,7,Central Switzerland,58
+2021-02-18,2021,7,Espace Mittelland,249
+2021-02-18,2021,7,Grossregion Nordwestschweiz,104
+2021-02-18,2021,7,Grossregion Tessin,27
+2021-02-18,2021,7,Grossregion Zurich,167
+2021-02-18,2021,7,Lake Geneva region,292
+2021-02-18,2021,7,Ostschweiz,110
+2021-02-19,2021,7,Central Switzerland,95
+2021-02-19,2021,7,Espace Mittelland,215
+2021-02-19,2021,7,Grossregion Nordwestschweiz,129
+2021-02-19,2021,7,Grossregion Tessin,50
+2021-02-19,2021,7,Grossregion Zurich,146
+2021-02-19,2021,7,Lake Geneva region,341
+2021-02-19,2021,7,Ostschweiz,116
+2021-02-20,2021,7,Central Switzerland,45
+2021-02-20,2021,7,Espace Mittelland,130
+2021-02-20,2021,7,Grossregion Nordwestschweiz,62
+2021-02-20,2021,7,Grossregion Tessin,31
+2021-02-20,2021,7,Grossregion Zurich,114
+2021-02-20,2021,7,Lake Geneva region,236
+2021-02-20,2021,7,Ostschweiz,61
