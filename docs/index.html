@@ -25,13 +25,21 @@
 
 <h1>SARS-CoV-2 Variants of Concern in Switzerland</h1>
 <p>
-    Different labs across Switzerland perform a genetic characterization of randomly chosen SARS-CoV-2 samples. All
-    these samples stem from swabs of infected people. The goal is to estimate the frequency of the new variants B.1.1.7
-    (described first in the UK) and 501Y.V2 (described first in South Africa). In each week, the labs report to us the
-    number of considered random samples and the number of identified B.1.1.7 strains and the number of 501Y.V2 strains.
-    We then employ a binomial distribution and Wilson uncertainty intervals in order to estimate the frequency of the
-    variants. Given the delay between infection and swab collection, the frequency estimates for a particular week
-    reflect the epidemic situation around 1-2 weeks earlier. The code and data is available on
+    In a <a href="https://bsse.ethz.ch/cevo/research/sars-cov-2/swiss-sequencing-consortium---viollier.html">Swiss-wide genomic surveillance</a> effort, we currently
+    perform whole genome sequencing of around 4-5% of all confirmed cases on a weekly basis (Viollier dataset below). These sequences are further tagged with a geographic location. 
+    In addition, we have a dataset of a screening effort where the proposed B.1.1.7 variants are again confirmed through sequencing (Risch dataset below).
+    Taken together, this leads to a characterization of around 11.5% of all confirmed cases since mid-December.
+    
+    We use this data to determine the increase in relative and absolute numbers of B.1.1.7. 
+    In addition, for the whole genome sequencing data, we 
+    provide results for Swiss regions and further track the variant 501Y.V2. We will add further Variants of Concern once they spread locally.
+    We note that due the delay between infection and swab collection, the numbers for a particular day
+    reflect the epidemic situation around 8-11 days earlier. 
+    
+   <!--- The methods employed for the plots below are described in our <a href="todo">manuscript</a>. In particular, we further provide estimates on the transmission fitness advantage
+    of B.1.1.7 for Switzerland and the Swiss regions. --->
+    
+    The code and data is available on
     <a href="https://github.com/cevo-public/Quantification-of-the-spread-of-a-SARS-CoV-2-variant">Github</a>.
 </p>
 
@@ -40,7 +48,7 @@
 
 <h2>B.1.1.7 (or S.501Y.V1) Variant</h2>
 
-<p>The estimated proportion of B.1.1.7 cases:</p>
+<p>First we show the estimated proportion of B.1.1.7 cases through time (vertical bars) together with the fitted logistic growth curve:</p>
 
 <img
     src="https://raw.githubusercontent.com/cevo-public/Quantification-of-the-spread-of-a-SARS-CoV-2-variant/main/figures/g4.8/fig_proportion_switzerland_viollier_risch.svg"
@@ -52,7 +60,7 @@
     style="margin-left: 30px; margin-right: 30px;"
 >
 
-<p>The estimated absolute number of B.1.1.7 cases:</p>
+<p>Based on the estimated proportions of B.1.1.7, we provide the estimated expected absolute number of B.1.1.7 cases through time:</p>
 
 <img
     src="https://raw.githubusercontent.com/cevo-public/Quantification-of-the-spread-of-a-SARS-CoV-2-variant/main/figures/g4.8/fig_cases_switzerland_joint.svg"
@@ -64,7 +72,7 @@
     style="margin-left: 30px; margin-right: 30px;"
 >
 
-<p>Estimated weekly proportion and absolute number of B.1.1.7 cases (interactive):</p>
+<p>We provide the estimated weekly proportion and absolute number of B.1.1.7 cases in an interactive plot:</p>
 
 <iframe
         src="https://ibz-shiny.ethz.ch/covidDashboard/variant-plot/variantPlot_b117_internal.html"
@@ -74,7 +82,9 @@
 ></iframe>
 
 
-<h2>B.1.351 (or S.501Y.V2) Variant</h2>
+<h2>B.1.351 (or 501Y.V2) Variant</h2>
+    
+<p>We provide the estimated weekly proportion and absolute number of 501Y.V2 cases in an interactive plot:</p>
 
 <iframe
         src="https://ibz-shiny.ethz.ch/covidDashboard/variant-plot/variantPlot_s501yv2_internal.html"
@@ -85,7 +95,9 @@
 
 
 <h2>International Comparison</h2>
-
+    
+Finally we show the relative frequency of B.1.1.7 for Switzerland, Denmark and the UK in an interactive plot. The underlying data are GISAID genomes. In addition, for the UK, we use data on S gene target failure (S-dropout).
+    
 <iframe
         src="https://ibz-shiny.ethz.ch/covidDashboard/variant-plot/variantPlot_b117_international.html"
         height="500px"
@@ -107,7 +119,7 @@
 <p>
     <b>Viollier:</b> Samples are provided by <a href="https://www.viollier.ch/">Viollier AG</a>. Whole genome sequenicing is performed
     through the <a href="https://bsse.ethz.ch/cevo/research/sars-cov-2/swiss-sequencing-consortium---viollier.html">
-    Swiss Viollier Sequencing Consortium</a> lead by ETH Zürich.
+    Swiss SARS-CoV-2 Sequencing Consortium</a> lead by ETH Zürich.
 </p>
 <p>
     <b>Risch:</b> Samples are provided and screened by <a href="https://www.risch.ch/">Labor Risch</a>. Genomic characterization is
