@@ -380,6 +380,30 @@ def generate_fig_cases_switzerland_joint() -> Figure:
     return fig
 
 
+def generate_fig_tf_model_vs_reality() -> Figure:
+    def _subplot(ax, d, reproduction_number):
+        data_confirmed_cases = d.cases[["date", "cases"]]
+        data_variants = join_dataset(d)[["date", "t", "b117", "original"]]
+        draw_model_vs_reality_plot(ax, data_confirmed_cases, data_variants, model_original_r0=reproduction_number,
+                                   generation_time=global_generation_time, model_initial_cases=3000*1.025,
+                                   model_initial_proportion=0.0243902439,
+                                   model_fitness_advantage=0.5, show_long_title=False,
+                                   show_legend=True, y_axis_lim=4000)
+
+    data_viollier = load_data(INPUT_CASES, INPUT_RAW_VIOLLIER)
+
+    fig = plt.figure(figsize=(10, 8))
+
+    ax = fig.add_subplot(1, 1, 1)
+    _subplot(ax, to_data_whole(data_viollier), 0.84)
+
+    fig.tight_layout()
+    fig.savefig(
+        OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_tf.pdf",
+        format="pdf")
+    return fig
+
+
 def generate_fig_model_vs_reality_regions(show_model=True) -> Figure:
     def _subplot(ax, d, growth, show_legend=False):
         data_confirmed_cases = d.cases[["date", "cases"]]
@@ -494,6 +518,7 @@ def main():
     for g in [4.8, 5.2, 7.6]:
         global_generation_time = g
         Path(OUTPUT_DIR + "/g" + str(global_generation_time)).mkdir(parents=True, exist_ok=True)
+        generate_fig_tf_model_vs_reality()
         generate_fig_proportion_switzerland_viollier_risch()
         generate_fig_proportion_regions()
         generate_fig_model_vs_reality_switzerland_viollier_risch()
