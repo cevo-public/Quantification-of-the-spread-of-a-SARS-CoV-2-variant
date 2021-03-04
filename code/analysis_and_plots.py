@@ -391,6 +391,8 @@ def generate_fig_tf_model_vs_reality() -> Figure:
                                    show_legend=True, y_axis_lim=4000)
 
     data_viollier = load_data(INPUT_CASES, INPUT_RAW_VIOLLIER)
+    data_risch = load_data(INPUT_CASES, INPUT_RAW_RISCH)
+    data_viollier.variants = pd.concat([data_viollier.variants, data_risch.variants]).reset_index(drop=True)
 
     fig = plt.figure(figsize=(10, 8))
 
