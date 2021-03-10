@@ -109,7 +109,7 @@ def draw_model_vs_reality_plot(
         model_initial_proportion=0.02,
         model_fitness_advantage=0.5,
         model_start_date=datetime.datetime.strptime("2021-01-01", "%Y-%m-%d"),
-        model_end_date=datetime.datetime.strptime("2021-03-01", "%Y-%m-%d"),
+        model_end_date=datetime.datetime.strptime("2021-03-15", "%Y-%m-%d"),
         real_start_date=datetime.datetime.strptime("2021-01-01", "%Y-%m-%d"),
         real_sliding_window_size=7,
         show_legend=True,
