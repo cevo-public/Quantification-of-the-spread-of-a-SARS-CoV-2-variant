@@ -23,26 +23,29 @@ date,region,sequenced,b117
 2020-12-17,Grossregion Zurich,10,0
 2020-12-17,Lake Geneva region,7,0
 2020-12-17,Ostschweiz,6,0
-2020-12-18,Central Switzerland,4,0
-2020-12-18,Espace Mittelland,21,0
-2020-12-18,Grossregion Nordwestschweiz,17,0
-2020-12-18,Grossregion Zurich,32,0
+2020-12-18,Central Switzerland,5,0
+2020-12-18,Espace Mittelland,23,0
+2020-12-18,Grossregion Nordwestschweiz,40,0
+2020-12-18,Grossregion Tessin,0,0
+2020-12-18,Grossregion Zurich,34,0
 2020-12-18,Lake Geneva region,4,0
-2020-12-18,Ostschweiz,15,0
+2020-12-18,Ostschweiz,17,0
 2020-12-19,Central Switzerland,2,0
 2020-12-19,Espace Mittelland,15,0
 2020-12-19,Grossregion Nordwestschweiz,34,0
+2020-12-19,Grossregion Zurich,23,0
+2020-12-19,Ostschweiz,2,0
 2020-12-20,Central Switzerland,8,0
 2020-12-20,Espace Mittelland,40,0
 2020-12-20,Grossregion Nordwestschweiz,3,0
-2020-12-20,Grossregion Zurich,13,0
+2020-12-20,Grossregion Zurich,23,0
 2020-12-20,Ostschweiz,1,0
 2020-12-21,Central Switzerland,2,0
-2020-12-21,Espace Mittelland,16,0
-2020-12-21,Grossregion Nordwestschweiz,19,0
-2020-12-21,Grossregion Zurich,5,0
+2020-12-21,Espace Mittelland,41,0
+2020-12-21,Grossregion Nordwestschweiz,37,0
+2020-12-21,Grossregion Zurich,22,0
 2020-12-21,Lake Geneva region,1,0
-2020-12-21,Ostschweiz,5,0
+2020-12-21,Ostschweiz,14,0
 2020-12-22,Central Switzerland,10,0
 2020-12-22,Espace Mittelland,26,0
 2020-12-22,Grossregion Nordwestschweiz,36,0
@@ -51,15 +54,15 @@ date,region,sequenced,b117
 2020-12-22,Lake Geneva region,4,0
 2020-12-22,Ostschweiz,8,0
 2020-12-23,Central Switzerland,2,0
-2020-12-23,Espace Mittelland,3,0
-2020-12-23,Grossregion Nordwestschweiz,2,0
-2020-12-23,Grossregion Zurich,5,0
-2020-12-24,Central Switzerland,0,0
+2020-12-23,Espace Mittelland,9,0
+2020-12-23,Grossregion Nordwestschweiz,12,0
+2020-12-23,Grossregion Zurich,6,0
+2020-12-24,Central Switzerland,1,1
 2020-12-24,Espace Mittelland,32,0
 2020-12-24,Grossregion Nordwestschweiz,12,0
 2020-12-24,Grossregion Zurich,18,0
 2020-12-24,Lake Geneva region,3,0
-2020-12-24,Ostschweiz,11,0
+2020-12-24,Ostschweiz,14,0
 2020-12-25,Central Switzerland,12,0
 2020-12-25,Espace Mittelland,58,0
 2020-12-25,Grossregion Nordwestschweiz,36,0
@@ -69,7 +72,7 @@ date,region,sequenced,b117
 2020-12-26,Central Switzerland,1,0
 2020-12-26,Espace Mittelland,44,1
 2020-12-26,Grossregion Nordwestschweiz,44,2
-2020-12-26,Grossregion Zurich,13,0
+2020-12-26,Grossregion Zurich,16,0
 2020-12-26,Lake Geneva region,1,0
 2020-12-26,Ostschweiz,20,0
 2020-12-27,Central Switzerland,13,0
@@ -79,31 +82,31 @@ date,region,sequenced,b117
 2020-12-27,Lake Geneva region,9,0
 2020-12-27,Ostschweiz,39,0
 2020-12-28,Central Switzerland,21,0
-2020-12-28,Espace Mittelland,41,0
-2020-12-28,Grossregion Nordwestschweiz,94,0
+2020-12-28,Espace Mittelland,42,0
+2020-12-28,Grossregion Nordwestschweiz,107,0
 2020-12-28,Grossregion Zurich,38,2
 2020-12-28,Lake Geneva region,7,0
 2020-12-28,Ostschweiz,22,0
-2020-12-29,Central Switzerland,7,0
+2020-12-29,Central Switzerland,8,0
 2020-12-29,Espace Mittelland,47,2
-2020-12-29,Grossregion Nordwestschweiz,33,0
+2020-12-29,Grossregion Nordwestschweiz,35,0
 2020-12-29,Grossregion Tessin,5,0
-2020-12-29,Grossregion Zurich,56,1
-2020-12-29,Lake Geneva region,3,0
+2020-12-29,Grossregion Zurich,58,1
+2020-12-29,Lake Geneva region,5,0
 2020-12-29,Ostschweiz,22,0
 2020-12-30,Central Switzerland,11,0
 2020-12-30,Espace Mittelland,36,3
 2020-12-30,Grossregion Nordwestschweiz,50,0
 2020-12-30,Grossregion Tessin,2,0
-2020-12-30,Grossregion Zurich,51,0
+2020-12-30,Grossregion Zurich,58,0
 2020-12-30,Lake Geneva region,5,0
 2020-12-30,Ostschweiz,30,0
 2020-12-31,Central Switzerland,11,0
-2020-12-31,Espace Mittelland,38,1
+2020-12-31,Espace Mittelland,40,1
 2020-12-31,Grossregion Nordwestschweiz,11,0
 2020-12-31,Grossregion Tessin,1,0
-2020-12-31,Grossregion Zurich,34,1
-2020-12-31,Lake Geneva region,3,0
+2020-12-31,Grossregion Zurich,42,1
+2020-12-31,Lake Geneva region,4,0
 2020-12-31,Ostschweiz,16,0
 2021-01-01,Espace Mittelland,53,0
 2021-01-01,Grossregion Nordwestschweiz,24,0
@@ -123,29 +126,29 @@ date,region,sequenced,b117
 2021-01-03,Ostschweiz,27,0
 2021-01-04,Central Switzerland,27,0
 2021-01-04,Espace Mittelland,102,2
-2021-01-04,Grossregion Nordwestschweiz,98,1
+2021-01-04,Grossregion Nordwestschweiz,100,1
 2021-01-04,Grossregion Tessin,2,0
 2021-01-04,Grossregion Zurich,48,1
 2021-01-04,Lake Geneva region,12,2
 2021-01-04,Ostschweiz,19,0
 2021-01-05,Central Switzerland,21,1
-2021-01-05,Espace Mittelland,70,9
-2021-01-05,Grossregion Nordwestschweiz,47,1
+2021-01-05,Espace Mittelland,71,9
+2021-01-05,Grossregion Nordwestschweiz,58,1
 2021-01-05,Grossregion Tessin,3,0
 2021-01-05,Grossregion Zurich,63,2
-2021-01-05,Lake Geneva region,16,1
+2021-01-05,Lake Geneva region,17,1
 2021-01-05,Ostschweiz,17,0
 2021-01-06,Central Switzerland,12,0
 2021-01-06,Espace Mittelland,19,1
-2021-01-06,Grossregion Nordwestschweiz,31,0
+2021-01-06,Grossregion Nordwestschweiz,39,0
 2021-01-06,Grossregion Zurich,6,0
 2021-01-06,Lake Geneva region,21,1
 2021-01-06,Ostschweiz,8,0
-2021-01-07,Central Switzerland,3,0
-2021-01-07,Espace Mittelland,52,2
+2021-01-07,Central Switzerland,5,0
+2021-01-07,Espace Mittelland,57,2
 2021-01-07,Grossregion Nordwestschweiz,41,1
 2021-01-07,Grossregion Zurich,26,1
-2021-01-07,Lake Geneva region,2,0
+2021-01-07,Lake Geneva region,4,0
 2021-01-07,Ostschweiz,14,1
 2021-01-08,Central Switzerland,22,0
 2021-01-08,Espace Mittelland,84,7
@@ -161,7 +164,7 @@ date,region,sequenced,b117
 2021-01-09,Lake Geneva region,1,0
 2021-01-09,Ostschweiz,7,0
 2021-01-10,Central Switzerland,4,0
-2021-01-10,Espace Mittelland,51,2
+2021-01-10,Espace Mittelland,65,8
 2021-01-10,Grossregion Nordwestschweiz,11,0
 2021-01-10,Grossregion Zurich,26,0
 2021-01-10,Ostschweiz,14,0
@@ -187,7 +190,7 @@ date,region,sequenced,b117
 2021-01-13,Lake Geneva region,26,2
 2021-01-13,Ostschweiz,14,0
 2021-01-14,Central Switzerland,13,0
-2021-01-14,Espace Mittelland,17,0
+2021-01-14,Espace Mittelland,20,3
 2021-01-14,Grossregion Nordwestschweiz,39,1
 2021-01-14,Grossregion Tessin,3,0
 2021-01-14,Grossregion Zurich,13,1
@@ -198,7 +201,7 @@ date,region,sequenced,b117
 2021-01-15,Grossregion Nordwestschweiz,40,1
 2021-01-15,Grossregion Tessin,2,0
 2021-01-15,Grossregion Zurich,25,1
-2021-01-15,Lake Geneva region,16,3
+2021-01-15,Lake Geneva region,18,4
 2021-01-15,Ostschweiz,17,1
 2021-01-16,Central Switzerland,9,0
 2021-01-16,Espace Mittelland,37,4
@@ -229,15 +232,15 @@ date,region,sequenced,b117
 2021-01-20,Central Switzerland,7,0
 2021-01-20,Espace Mittelland,44,4
 2021-01-20,Grossregion Nordwestschweiz,47,6
-2021-01-20,Grossregion Zurich,42,5
-2021-01-20,Lake Geneva region,41,2
-2021-01-20,Ostschweiz,7,0
-2021-01-21,Central Switzerland,15,0
-2021-01-21,Espace Mittelland,49,8
-2021-01-21,Grossregion Nordwestschweiz,31,6
-2021-01-21,Grossregion Zurich,47,2
+2021-01-20,Grossregion Zurich,44,5
+2021-01-20,Lake Geneva region,42,2
+2021-01-20,Ostschweiz,13,0
+2021-01-21,Central Switzerland,16,0
+2021-01-21,Espace Mittelland,60,8
+2021-01-21,Grossregion Nordwestschweiz,35,6
+2021-01-21,Grossregion Zurich,48,2
 2021-01-21,Lake Geneva region,12,0
-2021-01-21,Ostschweiz,10,0
+2021-01-21,Ostschweiz,16,0
 2021-01-22,Central Switzerland,14,0
 2021-01-22,Espace Mittelland,49,4
 2021-01-22,Grossregion Nordwestschweiz,42,1
@@ -443,10 +446,61 @@ date,region,sequenced,b117
 2021-02-22,Grossregion Zurich,20,15
 2021-02-22,Lake Geneva region,22,20
 2021-02-22,Ostschweiz,5,4
-2021-02-23,Espace Mittelland,6,2
-2021-02-23,Grossregion Nordwestschweiz,10,4
-2021-02-23,Grossregion Tessin,1,0
-2021-02-23,Grossregion Zurich,2,1
-2021-02-23,Lake Geneva region,9,6
-2021-02-23,Ostschweiz,1,1
+2021-02-23,Central Switzerland,1,0
+2021-02-23,Espace Mittelland,17,8
+2021-02-23,Grossregion Nordwestschweiz,26,18
+2021-02-23,Grossregion Tessin,2,0
+2021-02-23,Grossregion Zurich,14,10
+2021-02-23,Lake Geneva region,16,12
+2021-02-23,Ostschweiz,3,1
+2021-02-24,Central Switzerland,4,3
+2021-02-24,Espace Mittelland,20,13
+2021-02-24,Grossregion Nordwestschweiz,15,9
+2021-02-24,Grossregion Tessin,1,1
+2021-02-24,Grossregion Zurich,11,7
+2021-02-24,Lake Geneva region,6,6
+2021-02-24,Ostschweiz,4,4
+2021-02-25,Central Switzerland,2,0
+2021-02-25,Espace Mittelland,27,17
+2021-02-25,Grossregion Nordwestschweiz,16,8
+2021-02-25,Grossregion Tessin,1,1
+2021-02-25,Grossregion Zurich,1,0
+2021-02-25,Lake Geneva region,5,4
+2021-02-26,Espace Mittelland,9,3
+2021-02-26,Grossregion Nordwestschweiz,18,6
+2021-02-26,Grossregion Tessin,0,0
+2021-02-26,Grossregion Zurich,6,6
+2021-02-26,Lake Geneva region,1,1
+2021-02-26,Ostschweiz,1,1
+2021-02-27,Central Switzerland,0,0
+2021-02-27,Espace Mittelland,1,0
+2021-02-27,Grossregion Nordwestschweiz,8,3
+2021-02-27,Grossregion Zurich,2,2
+2021-02-27,Lake Geneva region,2,2
+2021-03-01,Central Switzerland,1,1
+2021-03-01,Espace Mittelland,2,1
+2021-03-01,Grossregion Nordwestschweiz,10,6
+2021-03-01,Grossregion Tessin,1,1
+2021-03-01,Grossregion Zurich,4,2
+2021-03-01,Lake Geneva region,10,9
+2021-03-01,Ostschweiz,1,0
+2021-03-02,Espace Mittelland,23,15
+2021-03-02,Grossregion Nordwestschweiz,31,25
+2021-03-02,Grossregion Tessin,3,0
+2021-03-02,Grossregion Zurich,8,8
+2021-03-02,Lake Geneva region,17,16
+2021-03-02,Ostschweiz,8,6
+2021-03-03,Central Switzerland,2,1
+2021-03-03,Espace Mittelland,36,29
+2021-03-03,Grossregion Nordwestschweiz,32,29
+2021-03-03,Grossregion Tessin,2,1
+2021-03-03,Grossregion Zurich,14,11
+2021-03-03,Lake Geneva region,15,14
+2021-03-03,Ostschweiz,3,3
+2021-03-04,Central Switzerland,3,2
+2021-03-04,Espace Mittelland,25,20
+2021-03-04,Grossregion Nordwestschweiz,27,21
+2021-03-04,Grossregion Zurich,10,8
+2021-03-04,Lake Geneva region,3,3
+2021-03-04,Ostschweiz,2,2
 
