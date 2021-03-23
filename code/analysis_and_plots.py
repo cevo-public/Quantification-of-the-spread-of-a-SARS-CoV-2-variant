@@ -315,7 +315,7 @@ def generate_fig_proportion_hug_geneva() -> Figure:
 
     data_raw = load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA)
 
-    fig = plt.figure(figsize=(8, 4))
+    fig = plt.figure(figsize=(8, 3))
 
     ax = fig.add_subplot(1, 1, 1)
     _subplot(ax, join_dataset(to_data_whole(data_raw)), start_date=datetime.datetime.strptime("2020-12-14", "%Y-%m-%d"),
@@ -477,7 +477,7 @@ def generate_fig_model_vs_reality_hug_geneva(show_model=True) -> Figure:
     data_raw = load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA)
     growth = calculate_growth_rates(join_dataset(to_data_whole(data_raw)), 0.95, global_generation_time, r_hug_geneva)
 
-    fig = plt.figure(figsize=(8, 6))
+    fig = plt.figure(figsize=(8, 3))
     ax = fig.add_subplot(1, 1, 1)
     _subplot(ax, to_data_whole(data_raw), growth, show_legend=True)
     ax.set_title("Geneva - from HUG data")
