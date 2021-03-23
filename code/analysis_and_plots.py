@@ -26,8 +26,8 @@ pconf = PlotConfig(
     greys=["#151624", "#8C8C8C", "#BFBFBF"]
 )
 global_generation_time = -1
-r_viollier = 0.8298327047676343
-r_risch = 0.8179411274559166
+r_viollier = 0.8303355958601507
+r_risch = 0.8333831667251513
 r_viollier_geneva = 0.8810484621340444
 r_hug_geneva = 0.827443883157897
 
@@ -111,7 +111,7 @@ def draw_model_vs_reality_plot(
         model_initial_proportion=0.02,
         model_fitness_advantage=0.5,
         model_start_date=datetime.datetime.strptime("2021-01-01", "%Y-%m-%d"),
-        model_end_date=datetime.datetime.strptime("2021-03-15", "%Y-%m-%d"),
+        model_end_date=datetime.datetime.strptime("2021-04-01", "%Y-%m-%d"),
         real_start_date=datetime.datetime.strptime("2021-01-01", "%Y-%m-%d"),
         real_sliding_window_size=7,
         show_legend=True,
