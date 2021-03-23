@@ -10,9 +10,9 @@ library(EpiEstim)
 # This code assumes you have cloned the git repository
 # https://github.com/covid-19-Re/shiny-dailyRe in the location
 # app_dir
-app_dir = '<shiny-dailyRe>'
-data_dir = '../data'
-plot_dir = '../figures'
+app_dir = 'E:/repos/sars_cov_2/shiny-dailyRe'
+data_dir = './data'
+plot_dir = './figures'
 
 source(paste0(app_dir,'/app/otherScripts/2_utils_getInfectionIncidence.R'))
 source(paste0(app_dir,'/app/otherScripts/3_utils_doReEstimates.R'))
@@ -30,25 +30,25 @@ source('Re_functions.R')
 #start_date = as_date("2021-01-01")
 #start_date = as_date("2020-12-15")
 
-start_dates = c(as_date("2020-12-22"), as_date("2021-01-01"))
+start_dates = c(as_date("2021-01-01"))
 
-for (data_source in c('viollier', 'risch')){
-  for (start_date_ind in 1:2 ){
+for (data_source in c('viollier', 'risch', 'hug_geneva')){
+  for (start_date_ind in 1:1 ){
     start_date = start_dates[start_date_ind]
     
     ##########################
     # there is roughly a 10 day delay between infection and case confirmation
-    data_end_date = as_date("2021-02-11")
-    plot_end_date = as_date("2021-02-01")
+    data_end_date = as_date("2021-03-04")
+    plot_end_date = as_date("2021-02-22")
     
     raw_data = read_csv(paste0(data_dir, '/estimated_case_numbers_', data_source, '.csv'))
     data <- raw_data %>%
       filter(date <= data_end_date )
     
     if (start_date == as_date("2021-01-01")){
-      plot_dir = '../figures/Jan1'
+      plot_dir = './figures/Jan1'
     } else {
-      plot_dir = '../figures/Dec22'
+      plot_dir = './figures/Dec22'
     }
     
     ##########################

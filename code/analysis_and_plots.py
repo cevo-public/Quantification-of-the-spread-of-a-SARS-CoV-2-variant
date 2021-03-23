@@ -17,6 +17,7 @@ import utils
 
 INPUT_RAW_VIOLLIER = "../data/data_variants_per_day_and_grossregion_viollier.csv"
 INPUT_RAW_RISCH = "../data/data_variants_per_day_risch.csv"
+INPUT_RAW_HUG_GENEVA = "../data/data_variants_per_day_hug_geneva.csv"
 INPUT_CASES = "../data/data_cases_per_day_and_grossregion.csv"
 OUTPUT_DIR = "../figures"
 
@@ -28,6 +29,7 @@ global_generation_time = -1
 r_viollier = 0.8298327047676343
 r_risch = 0.8179411274559166
 r_viollier_geneva = 0.8810484621340444
+r_hug_geneva = 0.827443883157897
 
 
 # --- Core functions ---
@@ -304,6 +306,28 @@ def generate_fig_proportion_regions() -> Figure:
     return fig
 
 
+def generate_fig_proportion_hug_geneva() -> Figure:
+    def _subplot(ax, data, start_date, show_legend):
+        draw_proportion_line_plot(ax, data, reproduction_number=r_viollier,
+                                  generation_time=global_generation_time, show_logistic_ci=True,
+                                  show_daily_points=True, show_daily_ci=True,
+                                  start_date=start_date, number_days=120, show_legend=show_legend)
+
+    data_raw = load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA)
+
+    fig = plt.figure(figsize=(8, 4))
+
+    ax = fig.add_subplot(1, 1, 1)
+    _subplot(ax, join_dataset(to_data_whole(data_raw)), start_date=datetime.datetime.strptime("2020-12-14", "%Y-%m-%d"),
+             show_legend=True)
+    ax.set_title("Geneva - from HUG data")
+
+    fig.tight_layout()
+    fig.savefig(OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_proportion_hug_geneva.pdf", format="pdf")
+    fig.savefig(OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_proportion_hug_geneva.svg", format="svg")
+    return fig
+
+
 def generate_fig_model_vs_reality_switzerland_viollier_risch(show_model=True) -> Figure:
     def _subplot(ax, d, reproduction_number, show_legend=False):
         growth = calculate_growth_rates(join_dataset(d), 0.95, global_generation_time, reproduction_number)
@@ -437,6 +461,35 @@ def generate_fig_model_vs_reality_regions(show_model=True) -> Figure:
     return fig
 
 
+def generate_fig_model_vs_reality_hug_geneva(show_model=True) -> Figure:
+    def _subplot(ax, d, growth, show_legend=False):
+        data_confirmed_cases = d.cases[["date", "cases"]]
+        data_variants = join_dataset(d)[["date", "t", "b117", "original"]]
+        initial_cases = data_confirmed_cases[
+            (data_confirmed_cases.date >= datetime.datetime.strptime("2020-12-29", "%Y-%m-%d")) &
+            (data_confirmed_cases.date <= datetime.datetime.strptime("2021-01-04", "%Y-%m-%d"))]
+        initial_cases = sum(initial_cases.cases) / 7
+        draw_model_vs_reality_plot(ax, data_confirmed_cases, data_variants, model_original_r0=r_hug_geneva,
+                                   generation_time=global_generation_time, model_initial_cases=initial_cases,
+                                   model_fitness_advantage=growth.fc_mle, show_long_title=False,
+                                   show_legend=show_legend, show_model_areas=show_model)
+
+    data_raw = load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA)
+    growth = calculate_growth_rates(join_dataset(to_data_whole(data_raw)), 0.95, global_generation_time, r_hug_geneva)
+
+    fig = plt.figure(figsize=(8, 6))
+    ax = fig.add_subplot(1, 1, 1)
+    _subplot(ax, to_data_whole(data_raw), growth, show_legend=True)
+    ax.set_title("Geneva - from HUG data")
+
+    fig.tight_layout()
+    if show_model:
+        fig.savefig(OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_model_vs_reality_hug_geneva.pdf", format="pdf")
+    else:
+        fig.savefig(OUTPUT_DIR + "/g" + str(global_generation_time) + "/fig_cases_hug_geneva.svg", format="svg")
+    return fig
+
+
 def generate_tbl_growth_rates() -> pd.DataFrame:
     def _row(d, region, reproduction_number):
         g = calculate_growth_rates(d, 0.95, global_generation_time, reproduction_number)
@@ -450,6 +503,7 @@ def generate_tbl_growth_rates() -> pd.DataFrame:
 
     data_viollier = load_data(INPUT_CASES, INPUT_RAW_VIOLLIER)
     data_risch = load_data(INPUT_CASES, INPUT_RAW_RISCH)
+    data_hug = load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA)
 
     table = []
 
@@ -460,6 +514,9 @@ def generate_tbl_growth_rates() -> pd.DataFrame:
     # Regions
     for region, d in to_data_regions(data_viollier):
         table.append(_row(join_dataset(d), region, r_viollier))
+
+    # HUG Geneva
+    table.append(_row(join_dataset(to_data_whole(data_hug)), "Geneva (HUG)", r_hug_geneva))
 
     df = pd.DataFrame(table)
     df.to_csv(OUTPUT_DIR + "/g" + str(global_generation_time) + "/tbl_growth_rates.csv", index=False)
@@ -481,6 +538,9 @@ def export_estimated_case_numbers_for_re():
     # Regions
     for region, d in to_data_regions(load_data(INPUT_CASES, INPUT_RAW_VIOLLIER)):
         _export(d, "Re/data/estimated_case_numbers_viollier_" + region + ".csv")
+
+    # HUG Geneva
+    _export(load_data(INPUT_CASES, INPUT_RAW_HUG_GENEVA), "Re/data/estimated_case_numbers_hug_geneva.csv")
 
 
 def generate_fig_model_vs_reality_geneva():
@@ -523,10 +583,13 @@ def main():
         generate_fig_tf_model_vs_reality()
         generate_fig_proportion_switzerland_viollier_risch()
         generate_fig_proportion_regions()
+        generate_fig_proportion_hug_geneva()
         generate_fig_model_vs_reality_switzerland_viollier_risch()
         generate_fig_model_vs_reality_regions()
+        generate_fig_model_vs_reality_hug_geneva()
         generate_fig_model_vs_reality_switzerland_viollier_risch(show_model=False)
         generate_fig_model_vs_reality_regions(show_model=False)
+        generate_fig_model_vs_reality_hug_geneva(show_model=False)
         generate_fig_cases_switzerland_joint()
         generate_tbl_growth_rates()
         generate_fig_model_vs_reality_geneva()
