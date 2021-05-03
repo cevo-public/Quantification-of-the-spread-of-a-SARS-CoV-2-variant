@@ -25,10 +25,10 @@
 
 <h1>SARS-CoV-2 Variants of Concern in Switzerland</h1>
 <p>
-        We use  data form our <a href="https://bsse.ethz.ch/cevo/research/sars-cov-2/swiss-sequencing-consortium---viollier.html">Swiss SARS-CoV-2 Sequencing Consortium</a> 
+    We use  data form our <a href="https://bsse.ethz.ch/cevo/research/sars-cov-2/swiss-sequencing-consortium---viollier.html">Swiss SARS-CoV-2 Sequencing Consortium</a> 
     combined with genomic screening data to determine the increase in relative and absolute numbers of B.1.1.7. 
     In addition, based on the whole genome sequencing data from our consortium, we 
-    provide results for Swiss regions and further track the variant 501Y.V2. We will add further Variants of Concern once they spread locally.
+    provide results for Swiss regions and further track the variant 501Y.V2.
     We note that due to the delay between infection and swab collection, the numbers for a particular day
     reflect the epidemic situation around 8-11 days earlier. 
 </p>
@@ -55,7 +55,11 @@ we additionally provide estimates on the transmission fitness advantage
 
 <p><b>Important: the most recent estimates may be based on incomplete data and may thus be corrected later.</b></p>
 
-<p><b>Last updated on:</b> 14.04.2021</p>
+<p>
+    <b>
+        This website was updated from mid-January until mid-April. For current information, please visit our new website <a href="https://cov-spectrum.ethz.ch/">CoV-Spectrum</a>.
+    </b>
+</p>
 
 
 <h2>B.1.1.7 (or S.501Y.V1) Variant</h2>
@@ -84,24 +88,29 @@ we additionally provide estimates on the transmission fitness advantage
     style="margin-left: 30px; margin-right: 30px;"
 >
 
+<p>Other parametrizations can be directly tried out in our web tool:</p>
+
+<iframe
+    src="https://cov-spectrum.ethz.ch/embed/Chen2021FitnessModel?json=%7B%22country%22%3A%22Switzerland%22%2C%22matchPercentage%22%3A1%2C%22mutations%22%3A%5B%5D%2C%22pangolinLineage%22%3A%22B.1.1.7%22%2C%22samplingStrategy%22%3A%22SURVEILLANCE%22%7D&sharedWidgetJson=%7B%22originalPageUrl%22%3A%22https%3A%2F%2Fcov-spectrum.ethz.ch%2Fexplore%2FSwitzerland%2FAllSamples%2FAllTimes%2Fvariants%2Fjson%3D%257B%2522variant%2522%253A%257B%2522name%2522%253A%2522B.1.1.7%2522%252C%2522mutations%2522%253A%5B%5D%257D%252C%2522matchPercentage%2522%253A1%257D%22%7D"
+    width="100%"
+    height="1700"
+    frameborder="0"
+></iframe>
+
 
 <h2>International Comparison</h2>
     
-Finally we show the relative frequency of B.1.1.7 for Switzerland, Denmark and the UK in an interactive plot. The underlying data are GISAID genomes. In addition, for the UK, we use data on S gene target failure (S-dropout).
-    
+<p>Finally, we show the relative frequency of B.1.1.7 for different countries.</p>
+
 <iframe
-        src="https://ibz-shiny.ethz.ch/covidDashboard/variant-plot/variantPlot_b117_international.html"
-        height="500px"
-        width="100%"
-        style="outline: none; border: none;"
+    src="https://cov-spectrum.ethz.ch/embed/VariantInternationalComparisonPlot?json=%7B%22country%22%3A%22Switzerland%22%2C%22variantInternationalSampleSelector%22%3A%7B%22mutations%22%3A%5B%5D%2C%22matchPercentage%22%3A1%2C%22pangolinLineage%22%3A%22B.1.1.7%22%7D%2C%22wholeInternationalSampleSelector%22%3A%7B%7D%7D&sharedWidgetJson=%7B%22originalPageUrl%22%3A%22https%3A%2F%2Fcov-spectrum.ethz.ch%2Fexplore%2FSwitzerland%2FAllSamples%2FAllTimes%2Fvariants%2Fjson%3D%257B%2522variant%2522%253A%257B%2522name%2522%253A%2522B.1.1.7%2522%252C%2522mutations%2522%253A%5B%5D%257D%252C%2522matchPercentage%2522%253A1%257D%22%7D"
+    width="100%"
+    height="500px"
+    frameborder="0"
 ></iframe>
 
 <div class="source_info">
-    Sources: Denmark: <a href="https://www.covid19genomics.dk/statistics">Danish Covid-19 Genome Consortium</a>;
-    UK: <a href="https://www.gisaid.org/">GISAID</a>;
-    UK S-dropout: <a href="https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201">
-        Technical briefings of Public Health England</a>;
-    Switzerland: See acknowledgements below
+    Sources: <a href="https://cov-spectrum.ethz.ch/">CoV-Spectrum</a> using data from <a href="https://www.gisaid.org/">GISAID</a>
 </div>
 
 
