@@ -10,7 +10,7 @@ library(EpiEstim)
 # This code assumes you have cloned the git repository
 # https://github.com/covid-19-Re/shiny-dailyRe in the location
 # app_dir
-app_dir = 'E:/repos/sars_cov_2/shiny-dailyRe'
+app_dir = '<path to the shiny-dailyRe repository>'
 data_dir = './data'
 plot_dir = './figures'
 
