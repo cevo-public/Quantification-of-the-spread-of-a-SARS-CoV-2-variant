@@ -78,7 +78,8 @@ def draw_proportion_line_plot(
 
     # Draw
     proportion = data.b117 / (data.b117 + data.original)
-    daily_ci = proportion_confint(data.b117, data.b117 + data.original, alpha=1 - alpha, method="wilson")
+    with np.errstate(divide='ignore', invalid='ignore'):
+        daily_ci = proportion_confint(data.b117, data.b117 + data.original, alpha=1 - alpha, method="wilson")
     if show_logistic_mle:
         ax.plot(t_date, model_pred[0], label="Logistic fit", color=pconf.greys[0])
     if show_logistic_ci:
