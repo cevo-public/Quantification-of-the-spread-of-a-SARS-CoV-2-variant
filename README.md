@@ -2,6 +2,8 @@
 
 Here lives the code and data for *Chen, Chaoran, et al. "Quantification of the spread of SARS-CoV-2 variant B.1.1.7 in Switzerland." Epidemics (2021); doi: [10.1016/j.epidem.2021.100480](https://doi.org/10.1016/j.epidem.2021.100480).*
 
+Zenodo archive of this repository: [10.5281/zenodo.7979278](https://doi.org/10.5281/zenodo.7979278)
+
 [Our website](https://cevo-public.github.io/Quantification-of-the-spread-of-a-SARS-CoV-2-variant/) gives a concise description about the data and puts the figures into context. 
 
 **This repository was updated between mid-January and mid-April 2021. For newer information, please visit [CoV-Spectrum](https://cov-spectrum.ethz.ch/).**
